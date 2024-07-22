@@ -14,7 +14,7 @@ function Navbar() {
   };
 
   return (
-    <nav className="bg-orange-400 p-4">
+    <nav className="bg-orange-400 p-2">
       <div className="container mx-auto flex items-center justify-between">
         {/* Logo or Title */}
         <div className="text-white text-2xl font-bold">

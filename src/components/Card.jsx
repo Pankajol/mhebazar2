@@ -8,11 +8,12 @@ function Card({ title, description, imageUrl,bg }) {
         <div className="font-bold text-xl mb-2">{title}</div>
         <p className="text-gray-700 text-base">
           {description}
-        </p>
-        <button className='font-bold text-xl hover:bg-orange-500 rounded mb-2 p-2 text-white bg-orange-400 '>Explore</button>
+          </p>
       </div>
-      <div className='flex flex-row justify-end items-end'>
-      <img className="w-32 h-32" src={imageUrl} alt={title} />
+      <div className='flex flex-row justify-center items-end'>
+      
+      <button className='font-bold text-xl hover:bg-orange-500 rounded mb-2 p-2 text-white bg-orange-400 '>Explore</button>
+      <img className="w-32 h-32 " src={imageUrl} alt={title} />
       </div>
 
      

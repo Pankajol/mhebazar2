@@ -4,17 +4,17 @@ import { SquarePlus } from 'lucide-react';
 
 const categories = [
   {
-    name: 'Battery',
+    name: '/icon/image1.png',
 
    
     subcategories: [ 'Lithium-Ion Battery', 'Lead-Acid' ,'Traction Battery'],
   },
   {
-    name: 'Pallet',
+    name: '/icon/image2.png',
     subcategories: ['Wooden Pallet','Plastic Pallet','Metal Poliet','Other'],
   },
   {
-    name: 'Pallet Truck', 
+    name: '/icon/image3.png', 
     subcategories: [ 'Hand Pallet Truck',
 
         'Stainless Steel Hand Pallet Truck',
@@ -26,7 +26,7 @@ const categories = [
         'Scissors Hand Pallet Truck'],
   },
   {
-    name: 'Stacker',
+    name: '/icon/image4.png',
     subcategories: [
         'Manual Stacker',
 
@@ -42,6 +42,10 @@ const categories = [
         
         'Manual Drum Stacker'],
     },
+    {
+      name: '/icon/image5.png',
+      subcategories: ['Wooden Pallet','Plastic Pallet','Metal Poliet','Other'],
+    },
   
   // Add more categories as needed
 ];
@@ -54,19 +58,20 @@ const SideMenu = () => {
   };
 
   return (
-    <div className="h-screen w-56 m-4 bg-orange-400 text-white fixed flex justify-center items-stretch ">
+    <div className="h-screen w-16 m-4  text-white fixed flex justify-center items-stretch ">
       <div className="p-4">
         <h1 className="text-2xl font-bold mb-4">  <SquarePlus size={56} color="white" /></h1>
         <nav>
           <ul>
             {categories.map((category) => (
-              <li key={category.name} className="mb-2">
-                <button
+              <div>
+                <li key={category.name} className="mb-2">
+                <Link
                   onClick={() => handleCategoryClick(category.name)}
-                  className="w-full text-left p-2 hover:bg-orange-600 rounded focus:outline-none"
+                  className="w-full text-left p-2 rounded focus:outline-none"
                 >
-                  {category.name}
-                </button>
+                  <img src={category.name} alt="" />
+                </Link>
                 {expandedCategory === category.name && (
                   <ul className="pl-4 mt-2">
                     {category.subcategories.map((sub) => (
@@ -79,6 +84,7 @@ const SideMenu = () => {
                   </ul>
                 )}
               </li>
+              </div>
             ))}
           </ul>
         </nav>

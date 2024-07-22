@@ -1,6 +1,9 @@
 import React from 'react';
 import Card from './Card';
 import Footer from './Footer';
+// import AllProducts from './AllProducts'
+import HomeProducts from './HomeProducts';
+import TopSaleProduct from './TopSaleProduct';
 
 function HomePage() {
   return (
@@ -14,7 +17,7 @@ function HomePage() {
         
         <div className='flex flex-row  justify-end items-end'>
         <div className='flex flex-row mb-56 justify-start items-start '>
-        <button className='p-4 m-2 bg-orange-400 text-3xl rounded hover:bg-orange-500 text-white font-bold'>Expolore</button>
+        <button className='p-4 m-2 bg-orange-400 text-xl rounded hover:bg-orange-500 text-white font-bold'>Expolore</button>
         </div>
         <div className='flex flex-row  justify-start items-start '>
         <img className="  " src="/pic1.png" alt="pic" />    
@@ -57,7 +60,23 @@ function HomePage() {
        
         </div>
       </div>
+      
       </div>
+      <div className=''>
+        <div className='shadow p-2'>
+          <h1 className='text-2xl font-bold text-orange-400' >Material Handling Equipment Categories</h1>
+          <p>Pick the perfect gear from our material handling equipment options.</p>
+        </div>
+      <HomeProducts />
+      </div>
+      <div className=''>
+        <div className='shadow p-2'>
+          <h1 className='text-2xl font-bold text-orange-400' >Top Selling Products</h1>
+          <p>Special products in this month.</p>
+        </div>
+        <TopSaleProduct/>
+      </div>
+      
       <Footer/>
     </div>
   );
