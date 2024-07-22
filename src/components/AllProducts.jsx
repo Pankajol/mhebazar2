@@ -9,14 +9,14 @@ const AllProducts = () => {
       image: "/battryimg.png",
       title: "Battery",
       description: "This is an amazing product that will solve all your problems.",
-      price: "49.99",
+    
       bg: "bg-orange-200"
     },
     {
       image: "/pic1.png",
       title: "Amazing Product 2",
       description: "This is another amazing product that will solve all your problems.",
-      price: "59.99",
+     
       bg: "bg-orange-200"
     },
     {
