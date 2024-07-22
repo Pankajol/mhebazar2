@@ -1,5 +1,10 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom'; // If you're using react-router for navigation
+import { LucideHome } from 'lucide-react';
+import { ShapesIcon } from 'lucide-react';
+import { ShoppingCartIcon } from 'lucide-react';
+// import { burger } from '@lucide/lab';
+
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -57,13 +62,13 @@ function Navbar() {
         {/* Nav Links */}
         <div className={`md:flex md:items-center md:space-x-4 ${isOpen ? 'block' : 'hidden'}`}>
           <Link to="/" className="text-white px-3 py-2 rounded-md text-sm font-medium hover:bg-orange-600">
-            Home
+          <LucideHome />
           </Link>
-          <Link to="/about" className="text-white px-3 py-2 rounded-md text-sm font-medium hover:bg-orange-600">
-            Products
+          <Link to="/product" className="text-white px-3 py-2 rounded-md text-sm font-medium hover:bg-orange-600">
+            <ShapesIcon/>
           </Link>
-          <Link to="/services" className="text-white px-3 py-2 rounded-md text-sm font-medium hover:bg-orange-600">
-            Add Card
+          <Link to="/cards" className="text-white px-3 py-2 rounded-md text-sm font-medium hover:bg-orange-600">
+            <ShoppingCartIcon />
           </Link>
          
         </div>
