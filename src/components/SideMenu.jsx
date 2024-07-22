@@ -54,7 +54,7 @@ const SideMenu = () => {
   };
 
   return (
-    <div className="h-screen w-56 m-4 bg-orange-400 text-white fixed flex justify-center items-stretch">
+    <div className="h-screen w-56 m-4 bg-orange-400 text-white fixed flex justify-center items-stretch ">
       <div className="p-4">
         <h1 className="text-2xl font-bold mb-4">  <SquarePlus size={56} color="white" /></h1>
         <nav>

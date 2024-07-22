@@ -13,7 +13,7 @@ const Product = ({ image, title, description, price=0, bg }) => {
         <div className="flex justify-between items-center">
           <span className="text-3xl font-bold text-gray-900">${price}</span> 
            <button className="p-2 bg-orange-400  rounded hover:bg-orange-500 text-white font-bold">
-            Add to Cart
+            Get Quote
           </button>
         </div>
       </div>
