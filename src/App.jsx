@@ -21,7 +21,7 @@ function Content() {
   return (
     <div className="flex">
       {showSideMenu && <SideMenu />}
-      <div className={`flex-1 ${showSideMenu ? 'ml-16' : ''} p-4`}>
+      <div className={`flex-1 ${showSideMenu ? '' : ''} p-4`}>
         <Navbar />
         <Routes>
           <Route path="/" element={<HomePage />} />

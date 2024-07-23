@@ -8,19 +8,20 @@ import TopSaleProduct from './TopSaleProduct';
 function HomePage() {
   return (
     <div className='flex flex-col min-h-screen'>
-    <div className="flex flex-col md:flex-row p-4 gap-4">
+    <div className="flex flex-col h-auto md:flex-row p-4 gap-4">
       {/* First Column with background image */}
-      <div className="w-full  bg-cover bg-slate-400  mb-3 rounded">
-        <div className="text-base p-4 "><h1 className= '  text-6xl text-white font-bold  '>Streamline your Material
+      <div className="w-full h-auto bg-cover bg-slate-400  mb-3 rounded">
+        <h1 className='text-green-300 font-bold p-4'>New</h1>
+        <div className="text-base p-4 mt-10 "><h1 className= '  text-4xl text-white font-bold  '>Streamline your Material
         Handling Equipment with MHE Bazar One-Stop Solutions.</h1>
         </div>
         
-        <div className='flex flex-row  justify-end items-end'>
-        <div className='flex flex-row mb-56 justify-start items-start '>
-        <button className='p-4 m-2 bg-orange-400 text-xl rounded hover:bg-orange-500 text-white font-bold'>Expolore</button>
+        <div className='flex flex-row  justify-between items-end'>
+        <div className='flex flex-row  justify-center items-start '>
+        <button className='p-4 m-14 bg-orange-400 text-xl rounded hover:bg-orange-500 text-white font-bold'>Expolore</button>
         </div>
-        <div className='flex flex-row  justify-start items-start '>
-        <img className="  " src="/pic1.png" alt="pic" />    
+        <div className='flex flex-row   justify-center items-start '>
+        <img className="w-65 h-48" src="/pic1.png" alt="pic" />    
           </div>
         
         </div>

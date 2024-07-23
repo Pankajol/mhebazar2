@@ -10,7 +10,7 @@ const AllProducts = () => {
       image: "/battryimg.png",
       title: "Battery",
       description: "This is an amazing product that will solve all your problems.",
-    
+    bg1:"bg-orange-400",
       bg: "bg-orange-200"
     },
     {
@@ -18,7 +18,7 @@ const AllProducts = () => {
       image: "/pic1.png",
       title: "Amazing Product 2",
       description: "This is another amazing product that will solve all your problems.",
-     
+     bg1:"bg-orange-400",
       bg: "bg-orange-200"
     },
     {
@@ -26,7 +26,7 @@ const AllProducts = () => {
         image: "/image1.png",
         title: "Pallet truck",
         description: "This is another amazing product that will solve all your problems.",
-      
+      bg1:"bg-orange-400",
         bg: "bg-orange-200"
       },
       {
@@ -34,7 +34,7 @@ const AllProducts = () => {
         image: "/image2.png",
         title: "Manual Paltform Trolly",
         description: "This is another amazing product that will solve all your problems.",
-       
+       bg1:"bg-orange-400",
         bg: "bg-orange-200"
       },
       {
@@ -42,7 +42,7 @@ const AllProducts = () => {
         image: "/image3.png",
         title: "VNY Truck",
         description: "This is another amazing product that will solve all your problems.",
-        
+        bg1:"bg-orange-400",
         bg: "bg-orange-200"
       },
       {
@@ -50,7 +50,7 @@ const AllProducts = () => {
         image: "/image4.png",
         title: "Stacker",
         description: "This is another amazing product that will solve all your problems.",
-        
+        bg1:"bg-orange-400",
         bg: "bg-orange-200"
       },
       {
@@ -58,7 +58,7 @@ const AllProducts = () => {
         image: "/image5.png",
         title: "Scissors Lift",
         description: "This is another amazing product that will solve all your problems.",
-        
+        bg1:"bg-orange-400",
         bg: "bg-orange-200"
       },
       {
@@ -66,7 +66,7 @@ const AllProducts = () => {
         image: "/image6.png",
         title: "Racking Picker",
         description: "This is another amazing product that will solve all your problems.",
-        
+        bg1:"bg-orange-400",
         bg: "bg-orange-200"
       },
       {
@@ -74,8 +74,8 @@ const AllProducts = () => {
         image: "/palletimg.png",
         title: "Pallet",
         description: "This is another amazing product that will solve all your problems.",
-       
-        bg: "bg-orange-200"
+        bg1:"bg-orange-400",
+        bg: "bg-orange-200",
       },
      
     
