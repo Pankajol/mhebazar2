@@ -18,7 +18,7 @@ function HomePage() {
         
         <div className='flex flex-row  justify-between items-end'>
         <div className='flex flex-row  justify-center items-start '>
-        <button className='p-4 m-14 bg-orange-400 text-xl rounded hover:bg-orange-500 text-white font-bold'>Expolore</button>
+        <button className='p-2 m-14 bg-orange-400 text-xl rounded hover:bg-orange-500 text-white font-bold'>Expolore</button>
         </div>
         <div className='flex flex-row   justify-center items-start '>
         <img className="w-65 h-48" src="/pic1.png" alt="pic" />    
@@ -35,25 +35,25 @@ function HomePage() {
           <Card 
             title="Greentech India Manual Drum Trolley 300kg MDT300" 
             description="MHE Bazar is the leading provider of manual drum ." 
-            imageUrl="/pic1.png" 
+            imageUrl="/image3.png" 
             bg="bg-slate-200"
           />
             <Card 
             title="Greentech India Manual Drum Trolley 300kg MDT300" 
             description="MHE Bazar is the leading provider of manual drum ." 
-            imageUrl="/pic1.png"  
+            imageUrl="/image4.png"  
             bg="bg-slate-400"
           />
            <Card 
             title="Greentech India Manual Drum Trolley 300kg MDT300" 
             description="MHE Bazar is the leading provider of manual drum ." 
-            imageUrl="/pic1.png"  
+            imageUrl="/image2.png"  
             bg="bg-indigo-300"
           />
            <Card 
             title="Greentech India Manual Drum Trolley 300kg MDT300" 
             description="MHE Bazar is the leading provider of manual drum ." 
-            imageUrl="/pic1.png"  
+            imageUrl="/image1.png"  
             bg="bg-green-200"
           />
           

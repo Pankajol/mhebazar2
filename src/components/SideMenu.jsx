@@ -46,7 +46,40 @@ const categories = [
     },
     {
       name: '/icon/image5.png',
+      subcategories: [
+    
+      ],
+    },
+    {
+      name: '/icon/image6.png',
       subcategories: ['Wooden Pallet','Plastic Pallet','Metal Poliet','Other'],
+    },
+    {
+      name: '/icon/image7.png',
+      subcategories: ['Wooden Pallet','Plastic Pallet','Metal Poliet','Other'],
+    },
+    {
+      name: '/icon/image8.png',
+      subcategories: ['Wooden Pallet','Plastic Pallet','Metal Poliet','Other'],
+    },
+    {
+      name: '/icon/image9.png',
+      subcategories: ['Wooden Pallet','Plastic Pallet','Metal Poliet','Other'],
+    },
+    {
+      name: '/icon/image10.png',
+      subcategories: [
+        'Manual Mobile Scissors Lift',
+        'Semi-Electric Scissors Lift',
+        'Self-Propelled Scissors Lift',
+        'Pit Mounted Scissors Lift',
+        'Surface Mounted Scissors Lift',
+        'Goods Lift',
+        'Tandem Scissors Lift',
+        'Twin Scissors Lift',
+        'Low Profile Scissors Lift',
+        'Stainless Steel Scissors Lift',
+      ],
     },
   
   // Add more categories as needed

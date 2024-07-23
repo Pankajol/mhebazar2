@@ -4,6 +4,7 @@ import { LucideHome } from 'lucide-react';
 import { ShapesIcon } from 'lucide-react';
 import { ShoppingCartIcon } from 'lucide-react';
 import { User } from 'lucide-react';
+import { Search } from 'lucide-react';
 // import { burger } from '@lucide/lab';
 
 
@@ -19,7 +20,7 @@ function Navbar() {
       <div className="container mx-auto flex items-center justify-between">
         {/* Logo or Title */}
         <div className="text-white text-2xl font-bold">
-          <Link to="/">Taron</Link>
+          <Link to="/"><img className="w-28" src="/logo.png" alt="" /></Link>
         </div>
 
         {/* Mobile Menu Button */}
@@ -63,14 +64,15 @@ function Navbar() {
         {/* Nav Links */}
 
         <div className={`md:flex md:items-center md:space-x-4 ${isOpen ? 'block' : 'hidden'}`}>
-          <input className='border-none rounded-md' type="text" placeholder='Search'/>
+          {/* <Search className="text-white"/> */}
+          <input className='border-none rounded-md p-1' type="text" placeholder=" Search..."/>
           <Link to="/" className="text-white px-3 py-2 rounded-md text-sm font-medium hover:bg-orange-600">
           <LucideHome />
           </Link>
           <Link to="/product" className="text-white px-3 py-2 rounded-md text-sm font-medium hover:bg-orange-600">
             <ShapesIcon/>
           </Link>
-          <Link to="/cards" className="text-white px-3 py-2 rounded-md text-sm font-medium hover:bg-orange-600">
+          <Link to="/card" className="text-white px-3 py-2 rounded-md text-sm font-medium hover:bg-orange-600">
             <ShoppingCartIcon />
           </Link>
           <Link to="/cards" className="text-white px-3 py-2 rounded-md text-sm font-medium hover:bg-orange-600">

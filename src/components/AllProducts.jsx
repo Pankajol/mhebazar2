@@ -83,12 +83,14 @@ const AllProducts = () => {
 
   return (
     <div className="flex flex-wrap justify-center">
-      {products.map((product, index) => (
+    
+     {products.map((product, index) => (
         <div key={index} className="m-4">
           <Product {...product} />
         </div>
       ))}
-    </div>
+     </div>
+    
   );
 };
 

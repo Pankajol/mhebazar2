@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import HomePage from './components/HomePage'; // Import your HomePage component
 import AllProducts from './components/AllProducts';
 import SideMenu from './components/SideMenu';
+import ShipingCard from './components/ShipingCard';
 // import AboutPage from './components/AboutPage'; 
 
 function App() {
@@ -26,6 +27,7 @@ function Content() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="product" element={<AllProducts />} />
+          <Route path="card" element={<ShipingCard />} />
           
         </Routes>
       </div>
