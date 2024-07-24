@@ -7,8 +7,8 @@ import TopSaleProduct from './TopSaleProduct';
 
 function HomePage() {
   return (
-    <div className='flex flex-col min-h-screen'>
-    <div className="flex flex-col h-auto md:flex-row p-4 gap-4">
+    <div className='flex flex-col pt-2 min-h-screen  '>
+    <div className="flex flex-col items-start h-auto md:flex-row  gap-4">
       {/* First Column with background image */}
       <div className="w-full h-auto bg-cover bg-slate-400  mb-3 rounded">
         <h1 className='text-green-300 font-bold p-4'>New</h1>
@@ -68,7 +68,7 @@ function HomePage() {
           <h1 className='text-2xl font-bold text-orange-400' >Material Handling Equipment Categories</h1>
           <p>Pick the perfect gear from our material handling equipment options.</p>
         </div>
-      <HomeProducts />
+      <HomeProducts className="bg-black" />
       </div>
       <div className=''>
         <div className='shadow p-2'>

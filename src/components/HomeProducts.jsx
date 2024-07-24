@@ -23,7 +23,7 @@ function HomeProducts() {
           },
           {
             
-            image: "/image2.png",
+            image: "/image5.png",
             title: "Manual Paltform Trolly",
           
           },
@@ -63,7 +63,7 @@ function HomeProducts() {
       ];
     
       return (
-        <div className="flex flex-wrap justify-center">
+        <div className="flex flex-wrap   ">
           {products.map((product, index) => (
             <div key={index} className="m-4">
               <Product {...product} />

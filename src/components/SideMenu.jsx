@@ -3,10 +3,12 @@
 // import { SquarePlus } from 'lucide-react';
 import React from 'react';
 import Category from './Category';
+import  {Grip}  from 'lucide-react';
 
 const categories = [
   {
     name: '/icon/image1.png',
+   
 
    
     subcategories: [ 'Lithium-Ion Battery', 'Lead-Acid' ,'Traction Battery'],
@@ -141,7 +143,8 @@ const categories = [
 // ];
   const SideMenu = () => {
     return (
-      <div className="h-screen  shadow-lg flex flex-col">
+      <div className="h-screen   flex flex-col">
+         <Grip className='m-5 ' />
         {categories.map((cat, idx) => (
           <Category key={idx} name={cat.name} subcategories={cat.subcategories} />
         ))}
@@ -150,3 +153,9 @@ const categories = [
 };
 
 export default SideMenu;
+
+
+
+
+
+

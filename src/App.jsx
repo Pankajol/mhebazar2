@@ -5,6 +5,8 @@ import HomePage from './components/HomePage'; // Import your HomePage component
 import AllProducts from './components/AllProducts';
 import SideMenu from './components/SideMenu';
 import ShipingCard from './components/ShipingCard';
+
+import BlankPage from './BlankPage';
 // import AboutPage from './components/AboutPage'; 
 
 function App() {
@@ -28,6 +30,7 @@ function Content() {
           <Route path="/" element={<HomePage />} />
           <Route path="product" element={<AllProducts />} />
           <Route path="card" element={<ShipingCard />} />
+          <Route path="*" element={<BlankPage />} />
           
         </Routes>
       </div>
