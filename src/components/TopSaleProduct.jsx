@@ -5,42 +5,47 @@ function TopSaleProduct() {
     const products = [
      
         {
-          image: "/pic1.png",
-          title: "Amazing Product 2",
-          bg: "bg-blue-200"
+          image: "/spare-parts.png",
+          title: "Return Filter",
+          description:" Return Filter The return filter is a crucial spare part for hydraulic systems used in material handling equipment ",
+          
         
         },
      
           {
-            image: "/image2.png",
-            title: "Manual Paltform Trolly",
-            bg: "bg-indigo-200"
+            image: "/spare-parts.png",
+            title: "Tyre",
+            description:" Tyres are one of the essential spare parts for material handling equipment such as forklifts.  ",
+           
           
           },
           {
-            image: "/image3.png",
-            title: "VNY Truck",
-            bg: "bg-orange-200"
+            image: "/spare-parts.png",
+            title: "Air Breather ",
+            description:" The Air Breather is an essential component of any vehicle's engine system. This spare part is designed to filter the air that enters the engine, preventing contaminants such as dust, dirt, and debris  ",
+            
          
           },
           {
-            image: "/image4.png",
-            title: "Stacker",
-            bg: "bg-green-200"
+            image: "/spare-parts.png",
+            description:"  Our Bearing is a precision-made spare part designed for use in industrial machinery. It is engineered to provide maximum durability and reliability ",
+            title: "Bearing ",
+            
          
           },
       
           {
-            image: "/image6.png",
-            title: "Racking Picker",
-            bg: "bg-red-200"
+            image: "/spare-parts.png",
+            description:"Our Seal Kit is a high-quality spare part designed to provide a complete solution for repairing and maintaining your equipment.",
+            title: "Seal Kit",
+            
        
           },
           {
-            image: "/palletimg.png",
-            title: "Pallet",
-         
-            bg: "bg-orange-200"
+            image: "/spare-parts.png",
+            title: "Mast Roller",
+            description:" Our Mast Roller is a high-quality spare part designed to provide smooth and reliable operation for your equipment.  ",
+           
           },
          
         
